@@ -1,0 +1,10 @@
+@import url(../toolkits/fonts/Inter.css);
+@import url(../toolkits/fonts/Montserrat.css);
+
+:root {
+    --font-logo: 'Inter', sans-serif;
+    --font-main: 'Montserrat', sans-serif;
+    --light-blue: #6BD1FF;
+    --black: #000000;
+    --white: #FFFFFF;
+}

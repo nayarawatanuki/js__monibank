@@ -1,0 +1,36 @@
+.banner-form {
+    align-items: center;
+    background-image: url("../../../imgs/banners/form.png");
+    background-position: center;
+    height: 25vh;
+}
+
+.banner__title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    width: 40%;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .banner__title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    
+    .banner__title {
+        font-size: 16px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .banner__title {
+        font-size: 12px;
+        width: 90%;
+    }
+}

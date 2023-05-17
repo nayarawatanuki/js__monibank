@@ -1,0 +1,11 @@
+@import url(services.css);
+@import url(account.css);
+@import url(benefits.css);
+
+
+.section__title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    margin: 1em 0;
+}

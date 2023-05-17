@@ -1,0 +1,127 @@
+.menu {
+    align-items: center;
+    display: flex;
+    margin: 2em 2em;
+}
+
+.menu-list {
+    align-items: center;
+    display: flex;
+    flex-basis: 100%;
+    font-size: 18px;
+    justify-content: space-around;
+    margin: 0 0 0 2em;
+}
+
+
+.menu__search {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: .7em 1em;
+    width: 20vw;
+}
+
+.menu__search::placeholder {
+    background: url(../../../../imgs/icons/search.png) no-repeat right center;
+    font-size: 18px;
+}
+
+.menu-list__item a:hover {
+    text-decoration: underline;
+}
+
+.menu__button {
+    border: var(--light-blue) 2px solid;
+    border-radius: 20px;
+    color: var(--light-blue);
+    font-weight: 600;
+    padding: .5em 1em;
+}
+
+.menu__button--blue {
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+
+.menu-hamburguer__button,
+.menu-hamburguer__list {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .menu {
+        margin: 2em;
+    }
+
+    .menu-list {
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: right;
+        margin: 0;
+    }
+
+    .menu__search,
+    .menu-list__link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .menu {
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .logo {
+        margin: 1em;
+    }
+
+    .menu-hamburguer {
+        background: url(../../../../imgs/menu/Menu.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        display: flex;
+        height: 48px;
+        width: 48px;
+        padding: 1rem;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .menu-hamburguer__button:checked ~ .menu__label > .menu-hamburguer {
+        background-image: url(../../../../imgs/menu/openMenu.svg);
+    }
+
+    .menu-hamburguer__button:checked ~ .menu__label {
+        background: var(--light-blue);
+    }
+    
+    .menu-hamburguer__button:checked ~ .menu-hamburguer__list {
+        display: block;
+    }
+
+    .menu-hamburguer__list {
+        background-color: var(--white);
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 180px;
+        text-align: right;
+        line-height: 3em;
+    }
+
+    .menu-hamburguer__item:hover {
+        background-color: var(--light-blue)
+    }
+
+    .menu-hamburguer__item a {
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    
+}

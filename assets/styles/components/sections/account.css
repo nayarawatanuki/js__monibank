@@ -1,0 +1,51 @@
+.account {
+    
+    align-items: center;
+    background-image: url("../../../imgs/banners/cat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 60vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.account__container {
+    margin-left: 4em;
+    width: 80%;
+}
+
+.account__button {
+    background: var(--black);
+    border-radius: 20px;
+    color: var(--white);
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: .5em;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .account {
+        display: block;
+
+    }
+    
+    .account__container {
+        margin: 0;
+        width: 90%;
+        padding: 1rem;
+    }
+    
+    .account__title {
+        font-size: 20px;
+        padding: 1em 0;
+    }
+}

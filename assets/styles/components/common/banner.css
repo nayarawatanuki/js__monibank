@@ -1,0 +1,28 @@
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner__title,
+.account__title {
+    font-weight: 600;
+    color: var(--white);
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.banner__title {
+    margin: 0 3em;
+    width: 32%;
+}
+
+@media screen and (max-width: 560px) {
+    
+    .banner__title {
+        font-size: 24px;
+    }
+}
