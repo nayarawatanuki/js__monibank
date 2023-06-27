@@ -82,13 +82,13 @@
     
                     <fieldset class="input-container">
                         <label class="form__label" for="name">Nome</label>
-                        <input type="text" name="name" id="name" class="form__input" />
+                        <input type="text" name="name" id="name" class="form__input" minlength="3"/>
                         <span class="message-error"></span>
                     </fieldset>
     
                     <fieldset class="input-container">
                         <label class="form__label" for="email">E-mail</label>
-                        <input type="email" name="email" id="email" class="form__input" />
+                        <input type="email" name="email" id="email" class="form__input" minlength="4"/>
                         <span class="message-error"></span>
                     </fieldset>
 
@@ -100,7 +100,7 @@
 
                     <fieldset class="input-container">
                         <label class="form__label" for="cpf">CPF (apenas números)</label>
-                        <input type="text" name="cpf" id="cpf" class="form__input form__input--small" required />
+                        <input type="text" name="cpf" id="cpf" class="form__input form__input--small" minlength="11" maxlength="14" required/>
                         <span class="message-error"></span>
                     </fieldset>
 
