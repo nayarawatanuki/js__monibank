@@ -82,19 +82,19 @@
     
                     <fieldset class="input-container">
                         <label class="form__label" for="name">Nome</label>
-                        <input type="text" name="name" id="name" class="form__input" minlength="3"/>
+                        <input type="text" name="name" id="name" class="form__input" minlength="3" required/>
                         <span class="message-error"></span>
                     </fieldset>
     
                     <fieldset class="input-container">
                         <label class="form__label" for="email">E-mail</label>
-                        <input type="email" name="email" id="email" class="form__input" minlength="4"/>
+                        <input type="email" name="email" id="email" class="form__input" minlength="4" required/>
                         <span class="message-error"></span>
                     </fieldset>
 
                     <fieldset class="input-container">
                         <label class="form__label" for="rg">RG</label>
-                        <input type="text" name="rg" id="rg" class="form__input form__input--small" />
+                        <input type="text" name="rg" id="rg" class="form__input form__input--small" required/>
                         <span class="message-error"></span>
                     </fieldset>
 
@@ -106,12 +106,12 @@
 
                     <fieldset class="input-container">
                         <label class="form__label" for="birth">Data de nascimento</label>
-                        <input type="date" name="birth" id="birth" class="form__input form__input--small" />
+                        <input type="date" name="birth" id="birth" class="form__input form__input--small" required/>
                         <span class="message-error"></span>
                     </fieldset>
 
                     <fieldset class="form__terms">
-                        <input type="checkbox" name="terms" class="terms__input">
+                        <input type="checkbox" name="terms" class="terms__input" required>
                         <p class="terms__text">Li e estou ciente quanto às condições de tratamento dos meus dados conforme
                             descrito na Política
                             de
