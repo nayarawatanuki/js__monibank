@@ -82,36 +82,36 @@
     
                     <fieldset class="input-container">
                         <label class="form__label" for="name">Nome</label>
-                        <input name="name" id="name" class="form__input" />
+                        <input type="text" name="name" id="name" class="form__input" />
                         <span class="message-error"></span>
                     </fieldset>
     
                     <fieldset class="input-container">
                         <label class="form__label" for="email">E-mail</label>
-                        <input name="email" id="email" class="form__input" />
+                        <input type="email" name="email" id="email" class="form__input" />
                         <span class="message-error"></span>
                     </fieldset>
 
                     <fieldset class="input-container">
                         <label class="form__label" for="rg">RG</label>
-                        <input name="rg" id="rg" class="form__input form__input--small" />
+                        <input type="text" name="rg" id="rg" class="form__input form__input--small" />
                         <span class="message-error"></span>
                     </fieldset>
 
                     <fieldset class="input-container">
                         <label class="form__label" for="cpf">CPF (apenas números)</label>
-                        <input name="cpf" id="cpf" class="form__input form__input--small" required />
+                        <input type="text" name="cpf" id="cpf" class="form__input form__input--small" required />
                         <span class="message-error"></span>
                     </fieldset>
 
                     <fieldset class="input-container">
                         <label class="form__label" for="birth">Data de nascimento</label>
-                        <input name="birth" id="birth" class="form__input form__input--small" />
+                        <input type="date" name="birth" id="birth" class="form__input form__input--small" />
                         <span class="message-error"></span>
                     </fieldset>
 
                     <fieldset class="form__terms">
-                        <input name="terms" class="terms__input">
+                        <input type="checkbox" name="terms" class="terms__input">
                         <p class="terms__text">Li e estou ciente quanto às condições de tratamento dos meus dados conforme
                             descrito na Política
                             de
@@ -120,7 +120,7 @@
                     </fieldset>
     
                     <div>
-                        <input value="Avançar" class="form__button" id="send" data-buttonSend>
+                        <input type="submit" value="Avançar" class="form__button" id="send" data-buttonSend>
                         <span class="message-error"></span>
                     </div>
                 </form>
