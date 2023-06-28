@@ -100,7 +100,7 @@
 
                     <fieldset class="input-container">
                         <label class="form__label" for="cpf">CPF (apenas números)</label>
-                        <input type="text" name="cpf" id="cpf" class="form__input form__input--small" minlength="11" maxlength="14" required/>
+                        <input type="text" name="cpf" id="cpf" class="form__input form__input--small" minlength="11" maxlength="14" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required/>
                         <span class="message-error"></span>
                     </fieldset>
 
@@ -210,5 +210,7 @@
                 </h2>
             </section>
         </footer>
+
+        <script type="module" src="../../../app.js"></script>
     </body>
 </html>

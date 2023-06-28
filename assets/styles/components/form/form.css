@@ -104,6 +104,8 @@
 }
 
 .message-error {
+    display: flex;
+    margin-top: .5em;
     color: red;
 }
 
