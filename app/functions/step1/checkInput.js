@@ -1,6 +1,6 @@
-import { messages } from "../variables/errors/messages.js";
-import { showError } from "../variables/errors/show.js";
-import { typesError } from "../variables/errors/types.js";
+import { messages } from "../../variables/errors/messages.js";
+import { showError } from "../../variables/errors/show.js";
+import { typesError } from "../../variables/errors/types.js";
 import isLegalAge from "./validAge.js";
 import isCPF from "./validCPF.js";
 
