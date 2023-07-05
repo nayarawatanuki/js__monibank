@@ -77,15 +77,15 @@
                         <h2 class="form__title">Reconhecimento facial</h2>
                         <p class="form__text">Clique no quadro abaixo para capturarmos uma imagem sua!</p>
         
-                        <img src="../../../../assets/imgs/camera/recognition.png" alt="Rosto com olhos e um sorriso dentro de um enquadramento" data-videoButton class="form__img">
+                        <img src="../../../../assets/imgs/camera/recognition.png" alt="Rosto com olhos e um sorriso dentro de um enquadramento" data-video-button class="form__img">
         
                         <div class="form__camera" data-camera>
                             <video width="320" height="240" autoplay data-video></video>
-                            <button class="camera__button" data-takePhoto>Tirar foto</button>
+                            <button type="button" class="camera__button" data-take-photo>Tirar foto</button>
                         </div>
         
                         <div class="form__message" data-message>
-                            <canvas width="320" height="240" data-videoCanvas></canvas>
+                            <canvas width="320" height="240" data-video-canvas></canvas>
                             <img src="../../../../assets/imgs/icons/check.png" alt="Ícone de validação" class="form__img">
                             <p>Prontinho, imagem capturada!</p>
         
@@ -178,5 +178,7 @@
                 </h2>
             </section>
         </footer>
+
+        <script type="module" src="../../../step2.js"></script>
     </body>
 </html>

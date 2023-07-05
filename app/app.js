@@ -7,7 +7,7 @@ form.form.addEventListener("submit", e => {
 
     post(e);
 
-    window.location.href = "./step2.html"
+    window.location.href = "./step2.html";
 
     
 })
