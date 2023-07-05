@@ -36,11 +36,11 @@ Esse projeto contém o objetivo de conhecer e profundar conhecimentos de valida�
   **Validação de `forms`**:
 
   - Definir tipos para campos de digitação;
-  - Limitar a quantidade de caracteres em um elemento input;
-  - Controlar a quantidade mínima de caracteres do input;
-  - Transformar um campo em obrigatório;
+  - Limitar a quantidade de caracteres em um `input`;
+  - Controlar a quantidade mínima de caracteres do `input`;
+  - Transformar um campo em obrigatório, usando `required`;
 
-  - Utilizar patterns;
+  - Utilizar `patterns`;
   - Criar expressões regulares;
   - Selecionar vários elementos ao mesmo tempo;
   - Construir funções para cada elemento de uma lista;
@@ -53,7 +53,7 @@ Esse projeto contém o objetivo de conhecer e profundar conhecimentos de valida�
   - Lidar com datas em JavaScript;
   - Construir comparações de datas para verificar maioridade;
 
-  - Encontrar as validações padrões que existem no JavaScript com o Validity State;
+  - Encontrar as validações padrões que existem no JavaScript com o `Validity State`;
   - Interpretar cada tipo de erro;
   - Criar mensagens customizadas;
   - Remover o comportamento padrão de erro do HTML;
@@ -69,7 +69,7 @@ Esse projeto contém o objetivo de conhecer e profundar conhecimentos de valida�
 </br>
 
 ## :open_file_folder: Acesso ao projeto
-Caso tenha interesse em visualizar o que foi realizado: [Aluraplay](https://nayarawatanuki.github.io/js__monibank/) 
+Caso tenha interesse em visualizar o que foi realizado: [Monibank](https://nayarawatanuki.github.io/js__monibank/) 
 
 Ou, caso prefira baixá-lo clicando [aqui](https://github.com/nayarawatanuki/js__monibank/archive/refs/heads/main.zip).
 
